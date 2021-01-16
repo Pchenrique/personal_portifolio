@@ -30,7 +30,7 @@ export default function Podcast() {
               <div
                 key={i}
               >
-                <iframe
+                <iframe title='podcast'
                   className="podcast"
                   src={podcastLink}
                   frameBorder="0"

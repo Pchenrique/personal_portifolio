@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect ,lazy, Suspense } from "react";
 import ApolloClient, { gql } from "apollo-boost";
 import { openSource } from "../../portfolio";
@@ -51,7 +52,7 @@ export default function Profile() {
     if (openSource.showGithubProfile === "true") {
       getProfileData();
     }
-  }, []);
+  }, [getProfileData]);
 if (openSource.display && openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){  
     return (
       <Suspense fallback={renderLoader()}>

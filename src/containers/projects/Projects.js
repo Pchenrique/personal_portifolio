@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
@@ -17,7 +18,7 @@ export default function Projects() {
   const { isDark } = useContext(StyleContext);
   useEffect(() => {
     getRepoData();
-  }, []);
+  }, [getRepoData]);
 
   function getRepoData() {
     const client = new ApolloClient({
