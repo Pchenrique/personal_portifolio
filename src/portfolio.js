@@ -14,8 +14,7 @@ const greeting = {
   subTitle: emoji(
     'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / PHP / Reactjs / Nodejs / AdonisJs /React Native and some other cool libraries and frameworks.'
   ),
-  resumeLink:
-    '',
+  resumeLink: '',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -196,6 +195,10 @@ const bigProjects = {
       image: require('./assets/images/uglyphoto.jpg'),
       link: 'https://github.com/Pchenrique/uglyphoto',
     },
+    {
+      image: require('./assets/images/recognition.jpg'),
+      link: 'https://github.com/Pchenrique/FacialRecognition',
+    },  
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -210,52 +213,43 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: '1st Engineering project in the university category',
       subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
+        'The event brings together students from all over Brazil and from some Latin American countries with the purpose of presenting the projects developed at the college and competing for awards, my project won the 1st place in the engineering category of higher education.',
+      image: require('./assets/images/mocica.png'),
       footerLink: [
         {
           name: 'Certification',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
+            'https://1drv.ms/b/s!AtqHP1UMJZfClF_R06d7Cr6KK6wV?e=gsY7yp',
         },
         {
-          name: 'Award Letter',
+          name: 'Site',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
-        },
-        {
-          name: 'Google Code-in Blog',
-          url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+            'http://mocica.com.br/',
         },
       ],
     },
     {
-      title: 'Google Assistant Action',
+      title: '1st place in the presentation of the article computational thinking a systematic review',
       subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+        'The event brought together all the courses of the IFCE campus cedro to present the articles developed in the research projects in four categories, the project was qualified with the 1st place overall of the event.',
+      image: require('./assets/images/semic.png'),
       footerLink: [
         {
-          name: 'View Google Assistant Action',
+          name: 'Site',
           url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+            'http://semiccedro.rf.gd/?i=1',
         },
       ],
     },
 
     {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
+      title: '3rd place in the hackerflag marathon',
+      subtitle: 'The event brought together teams from the jaguaribe valley and south central region, and created the hackerflag marathon to test knowledge in decryption and interpretation of flags, and the teams that get the most points wins, our team took 3rd place in the marathon.',
+      image: require('./assets/images/rdcday.png'),
       footerLink: [
-        { name: 'Certification', url: '' },
-        {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
-        },
+        { name: 'Certification', url: 'https://1drv.ms/b/s!AtqHP1UMJZfCilX4c3bZjyfR6tQl' },
       ],
     },
   ],
@@ -267,22 +261,17 @@ const achievementSection = {
 const blogSection = {
   title: 'Blogs',
   subtitle:
-    'With Love for Developing cool stuff, I love to write and teach others what I have learnt.',
+    'WITH LOVE FOR DEVELOPING, I LOVE TO WRITE AND TEACH OTHERS WHAT I HAVE LEARNT.',
 
   blogs: [
-    {
-      url:
-        'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
-      title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
-      description:
-        'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
-    },
-    {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
-      title: 'Why REACT is The Best?',
-      description:
-        'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
-    },
+    // {
+    //   url:
+    //     'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
+    //   title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+    //   description:
+    //     'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
+    // },
+
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -296,12 +285,12 @@ const talkSection = {
   ),
 
   talks: [
-    {
-      title: 'Build Actions For Google Assistant',
-      subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
-    },
+    // {
+    //   title: 'Build Actions For Google Assistant',
+    //   subtitle: 'Codelab at GDG DevFest Karachi 2019',
+    //   slides_url: 'https://bit.ly/saadpasta-slides',
+    //   event_url: 'https://www.facebook.com/events/2339906106275053/',
+    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
