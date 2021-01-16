@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
+import React, { useState, useEffect, useCallback, useContext, Suspense, lazy } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
@@ -16,11 +16,8 @@ export default function Projects() {
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
   const { isDark } = useContext(StyleContext);
-  useEffect(() => {
-    getRepoData();
-  }, [getRepoData]);
 
-  function getRepoData() {
+  const getRepoData = useCallback(() => {
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
       request: (operation) => {
@@ -65,7 +62,6 @@ export default function Projects() {
       })
       .then((result) => {
         setrepoFunction(result.data.user.pinnedItems.edges);
-        console.log(result);
       })
       .catch(function (error) {
         console.log(error);
@@ -74,7 +70,11 @@ export default function Projects() {
           "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
         );
       });
-  }
+  },[]);
+
+  useEffect(() => {
+    getRepoData();
+  }, []);
 
   function setrepoFunction(array) {
     setrepo(array);
