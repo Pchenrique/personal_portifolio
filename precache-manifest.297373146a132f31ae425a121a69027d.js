@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "750a127a5dfe370efdb84e254be3058b",
+    "revision": "692ce65f9e70f947b3773c130f73dfd3",
     "url": "/index.html"
   },
   {
-    "revision": "b91f907795356ca3f019",
+    "revision": "cc7cff45bea4a6103ef1",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "008a6fe23fd5a68a7aec",
+    "revision": "f42aa7efda09c27ee3aa",
     "url": "/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "ff364d220f1e8cb2775e",
+    "revision": "aa549aa93d2def7ce735",
     "url": "/static/css/main.af23b6d0.chunk.css"
   },
   {
-    "revision": "01682d5190cb604caaf5",
-    "url": "/static/js/2.05ef5f9a.chunk.js"
+    "revision": "71b55da41e0d8cd71476",
+    "url": "/static/js/2.5229c860.chunk.js"
   },
   {
     "revision": "0a6d64cd3b49be6a14afdf21fa7c6d43",
-    "url": "/static/js/2.05ef5f9a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5229c860.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b91f907795356ca3f019",
-    "url": "/static/js/3.a49a1f22.chunk.js"
+    "revision": "cc7cff45bea4a6103ef1",
+    "url": "/static/js/3.984f9fc8.chunk.js"
   },
   {
-    "revision": "008a6fe23fd5a68a7aec",
-    "url": "/static/js/4.d5f68f56.chunk.js"
+    "revision": "f42aa7efda09c27ee3aa",
+    "url": "/static/js/4.e54cb339.chunk.js"
   },
   {
-    "revision": "ff364d220f1e8cb2775e",
-    "url": "/static/js/main.72b7fe39.chunk.js"
+    "revision": "aa549aa93d2def7ce735",
+    "url": "/static/js/main.c7b26e6b.chunk.js"
   },
   {
-    "revision": "398b9e4c279be276b735",
-    "url": "/static/js/runtime-main.54916b91.js"
+    "revision": "16b01618e94efad28a85",
+    "url": "/static/js/runtime-main.435c75dc.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "617e0f1b1b7b99b82926314c651367d2",
-    "url": "/static/media/agility.617e0f1b.png"
+    "revision": "0b2d7ee75c435a4fe24dd54f425336da",
+    "url": "/static/media/agility.0b2d7ee7.png"
   },
   {
     "revision": "f09b167b72e2f02be8801ca63767191b",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
     "url": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  {
+    "revision": "1f3404f024187f7e25e47f70d80835b8",
+    "url": "/static/media/tools.1f3404f0.png"
   },
   {
     "revision": "a17913df0a4e19777e26d0ef87f8c507",
