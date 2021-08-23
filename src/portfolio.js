@@ -152,12 +152,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'System Engineer',
-      company: 'Agility Monitoramento',
+      role: 'Backend Engineer',
+      company: 'Agility Gestão de Frotas e monitoramento',
       companylogo: require('./assets/images/agility.png'),
       date: 'January 2021 – Present',
       desc:
-        'Planning and development of web applications creating solutions for the company.',
+        'Agility is a fleet management and tracking company, where it monitors and controls fleets in an agile way. As a backend I am responsible for maintaining and developing internal or external systems, working in the entire context of the software, from project to completion.',
+      descBullets: [],
+    },
+    {
+      role: 'CTO',
+      company: 'Tools Educacional',
+      companylogo: require('./assets/images/tools.png'),
+      date: 'April 2021 – Present',
+      desc: 'Tools Educacional is a startup in the technology area at education certified as a google partner, thus, it worked throughout the technological part of the company, maintaining servers, databases, and applications, controlling the development and process automations.',
       descBullets: [],
     },
   ],
@@ -273,7 +281,7 @@ const blogSection = {
     // },
 
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -292,7 +300,7 @@ const talkSection = {
     //   event_url: 'https://www.facebook.com/events/2339906106275053/',
     // },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
